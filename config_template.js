@@ -64,4 +64,6 @@ var config = {
   //     "TL-WR841N/ND": {"v13": "https://wiki.freifunk.net/TP-Link_WR841ND/Flash-Anleitung_v13"}
   //   }
   // }
+  // accent color
+  color_accent: '#dc0067'
 };
