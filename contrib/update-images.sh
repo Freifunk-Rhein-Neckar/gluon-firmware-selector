@@ -2,8 +2,8 @@
 
 set -e
 
-BASE_URL=${BASE_URL:-"https://firmware.darmstadt.freifunk.net/images/"}
-BRANCHES=${BRANCHES:-"stable beta testing"}
+BASE_URL=${BASE_URL:-"https://fw.gluon.ffrn.de/"}
+BRANCHES=${BRANCHES:-"stable beta experimental nightly"}
 
 for BRANCH in $BRANCHES;
 do
