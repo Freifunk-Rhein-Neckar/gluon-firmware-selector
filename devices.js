@@ -73,7 +73,10 @@ var devices_recommended = {
       "buffalo-wzr-hp-g300nh": "v1",
       "buffalo-wzr-hp-g300nh2": "v2"
     },
-    "WZR-HP-G450H": {"buffalo-wzr-hp-g450h": ""},
+    "WZR-HP-G450H": {
+      "buffalo-wzr-hp-g450h-wzr-450hp": "",
+      "buffalo-wzr-hp-g450h": "",
+    },
   },
 
   "Cudy": {
