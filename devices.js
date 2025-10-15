@@ -361,7 +361,12 @@ var devices_recommended = {
     "Archer C20": "tp-link-archer-c20",
     "Archer C20i": "tp-link-archer-c20i",
     "Archer C5": "tp-link-archer-c5",
-    "Archer C50": {"tp-link-archer-c50": "v1", "tp-link-archer-c50-v3": "v3", "tp-link-archer-c50-v4": "v4", "tp-link-archer-c50-v6-ca-eu-ru": "v6"},
+    "Archer C50": {
+      "tp-link-archer-c50": "v1",
+      "tp-link-archer-c50-v3": "v3",
+      "tp-link-archer-c50-v4": "v4",
+      "tp-link-archer-c50-v6-ca-eu-ru": "v6 CA/EU/RU",
+    },
     "Archer C59": "tp-link-archer-c59",
     "Archer C6": {"tp-link-archer-c6-v2-eu-ru-jp": "v2", "tp-link-archer-c6-v2": "v2", "tp-link-archer-c6-v3": "v3"},
     "Archer C7": "tp-link-archer-c7",
