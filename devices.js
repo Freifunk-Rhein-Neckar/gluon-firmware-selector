@@ -190,7 +190,8 @@ var devices_recommended = {
   "Linksys": {
     "E4200": {"linksys-e4200-v2-viper": "v2"},
     "E8450": {"linksys-e8450": "", "linksys-e8450-ubi-sysupgrade.itb": ""},
-    "WHW01 (Velop) / VLP01": "linksys-whw01",
+    "VLP01": "linksys-vlp01",
+    "WHW01": "linksys-whw01",
     "WHW03": {"linksys-whw03-velop": "v1", "linksys-whw03-v2-velop": "v2"},
     "WRT1200AC": "linksys-wrt1200ac",
   },
