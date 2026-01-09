@@ -73,7 +73,14 @@ var devices_recommended = {
       "buffalo-wzr-hp-g300nh": "v1",
       "buffalo-wzr-hp-g300nh2": "v2"
     },
-    "WZR-HP-G450H": {"buffalo-wzr-hp-g450h": ""},
+    "WZR-HP-G450H": {
+      "buffalo-wzr-hp-g450h-wzr-450hp": "",
+      "buffalo-wzr-hp-g450h": "",
+    },
+  },
+
+  "COMFAST": {
+    "CF-EW71": "comfast-cf-ew71",
   },
 
   "Cudy": {
@@ -187,7 +194,9 @@ var devices_recommended = {
   "Linksys": {
     "E4200": {"linksys-e4200-v2-viper": "v2"},
     "E8450": {"linksys-e8450": "", "linksys-e8450-ubi-sysupgrade.itb": ""},
-    "WHW01 (Velop) / VLP01": "linksys-whw01",
+    "MR8300": "linksys-mr8300-dallas",
+    "VLP01": "linksys-vlp01",
+    "WHW01": "linksys-whw01",
     "WHW03": {"linksys-whw03-velop": "v1", "linksys-whw03-v2-velop": "v2"},
     "WRT1200AC": "linksys-wrt1200ac",
   },
@@ -232,6 +241,8 @@ var devices_recommended = {
     "R6220": "netgear-r6220",
     "R6260": "netgear-r6260",
     "R7800": "netgear-nighthawk-x4s-r7800",
+    "SRR60": "netgear-srr60",
+    "SRS60": "netgear-srs60",
     "WAC104": "netgear-wac104",
     "WAX202": "netgear-wax202",
     "WAX206": "netgear-wax206",
@@ -358,7 +369,12 @@ var devices_recommended = {
     "Archer C20": "tp-link-archer-c20",
     "Archer C20i": "tp-link-archer-c20i",
     "Archer C5": "tp-link-archer-c5",
-    "Archer C50": {"tp-link-archer-c50": "v1", "tp-link-archer-c50-v3": "v3", "tp-link-archer-c50-v4": "v4", "tp-link-archer-c50-v6-ca-eu-ru": "v6"},
+    "Archer C50": {
+      "tp-link-archer-c50": "v1",
+      "tp-link-archer-c50-v3": "v3",
+      "tp-link-archer-c50-v4": "v4",
+      "tp-link-archer-c50-v6-ca-eu-ru": "v6 CA/EU/RU",
+    },
     "Archer C59": "tp-link-archer-c59",
     "Archer C6": {"tp-link-archer-c6-v2-eu-ru-jp": "v2", "tp-link-archer-c6-v2": "v2", "tp-link-archer-c6-v3": "v3"},
     "Archer C7": "tp-link-archer-c7",
@@ -779,8 +795,11 @@ var devices_info = {
     "Orbi RBS50": {
       "v1": "https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=2cb24b3f3cd89692f3c0bd137f3f560ada359bfa", 
     },
+
     "R6120": "https://freifunk-ingolstadt.de/eigener-freifunk-hotspot/anleitung/installationsanleitung-fuer-netgear-r6120/",
     "R6220": "https://freifunk-ingolstadt.de/installationsanleitung-fuer-netgear-r6220/",
+    "SRR60": "https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=2cb24b3f3cd89692f3c0bd137f3f560ada359bfa",
+    "SRS60": "https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=2cb24b3f3cd89692f3c0bd137f3f560ada359bfa",
     "WAX202": "https://openwrt.org/toh/netgear/wax202#oem_easy_installation",
     "WAX206": "https://openwrt.org/toh/netgear/wax206#oem_easy_installation",
     "WAX220": "https://openwrt.org/toh/netgear/wax220#oem_easy_installation",
