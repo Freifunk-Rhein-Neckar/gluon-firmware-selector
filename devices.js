@@ -236,6 +236,8 @@ var devices_recommended = {
     "R6220": "netgear-r6220",
     "R6260": "netgear-r6260",
     "R7800": "netgear-nighthawk-x4s-r7800",
+    "SRR60": "netgear-srr60",
+    "SRS60": "netgear-srs60",
     "WAC104": "netgear-wac104",
     "WAX202": "netgear-wax202",
     "WAX206": "netgear-wax206",
@@ -788,8 +790,11 @@ var devices_info = {
     "Orbi RBS50": {
       "v1": "https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=2cb24b3f3cd89692f3c0bd137f3f560ada359bfa", 
     },
+
     "R6120": "https://freifunk-ingolstadt.de/eigener-freifunk-hotspot/anleitung/installationsanleitung-fuer-netgear-r6120/",
     "R6220": "https://freifunk-ingolstadt.de/installationsanleitung-fuer-netgear-r6220/",
+    "SRR60": "https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=2cb24b3f3cd89692f3c0bd137f3f560ada359bfa",
+    "SRS60": "https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=2cb24b3f3cd89692f3c0bd137f3f560ada359bfa",
     "WAX202": "https://openwrt.org/toh/netgear/wax202#oem_easy_installation",
     "WAX206": "https://openwrt.org/toh/netgear/wax206#oem_easy_installation",
     "WAX220": "https://openwrt.org/toh/netgear/wax220#oem_easy_installation",
