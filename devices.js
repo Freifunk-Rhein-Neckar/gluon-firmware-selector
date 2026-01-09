@@ -79,6 +79,10 @@ var devices_recommended = {
     },
   },
 
+  "COMFAST": {
+    "CF-EW71": "comfast-cf-ew71",
+  },
+
   "Cudy": {
     "AP3000 Outdoor": "cudy-ap3000-outdoor",
     "TR1200": "cudy-tr1200",
