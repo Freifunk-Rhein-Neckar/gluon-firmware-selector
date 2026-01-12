@@ -57,7 +57,7 @@ If two matches overlap, the longest match will be assigned the matching files. O
 ### Adding a device
 To add a device follow these steps:
 
-0. Check if the device has Gluon support. [This list](https://github.com/freifunk-gluon/gluon/blob/main/docs/user/supported_devices.rst) is where to check.
+0. Check if the device has Gluon support. [This list]( https://github.com/freifunk-gluon/gluon/tree/main/targets) is where to check.
 1. Make a fork and a branch for the device
 2. Go into `devices.js`
 3. Add the router to the correct list. See the [scheme above](#list-of-available-router-models)
