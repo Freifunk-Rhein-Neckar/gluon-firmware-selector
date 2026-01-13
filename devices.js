@@ -85,6 +85,7 @@ var devices_recommended = {
 
   "Cudy": {
     "AP3000 Outdoor": "cudy-ap3000-outdoor",
+    "RE3000": "cudy-re3000",
     "TR1200": "cudy-tr1200",
     "TR3000": "cudy-tr3000",
     "WR1000": {"cudy-wr1000": "v2"},
@@ -732,6 +733,7 @@ var devices_info = {
   },
   "Cudy": {
     "WR2100": "https://openwrt.org/toh/cudy/cudy_wr2100_v1#installation_using_web_interface",
+    "RE3000": "https://forum.darmstadt.freifunk.net/t/installation-cudy-tr3000/1010",
     "TR3000": "https://forum.darmstadt.freifunk.net/t/installation-cudy-tr3000/1010",
   },
   "Enterasys": {
