@@ -950,6 +950,7 @@ var firmwarewizard = function() {
         return e.revision == currentRevision && e.type == currentImageType;
       }).sort(function(a, b) {
         // non-experimental branches should appear first
+        if (!config.experimental_branches) return -1;
         var a_experimental = config.experimental_branches.indexOf(a.branch) != -1;
         var b_experimental = config.experimental_branches.indexOf(b.branch) != -1;
         if (a_experimental && !b_experimental) return 1;
@@ -998,7 +999,8 @@ var firmwarewizard = function() {
           $('#branchdescs').appendChild(li);
         }
 
-        if (config.experimental_branches.indexOf(rev.branch) != -1) {
+
+        if (config.experimental_branches && config.experimental_branches.indexOf(rev.branch) != -1) {
           if($('#branchselect .dl-experimental') === null) {
             var button = document.createElement('button');
             button.className = 'btn dl-experimental';
