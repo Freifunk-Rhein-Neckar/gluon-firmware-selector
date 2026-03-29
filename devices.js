@@ -4,6 +4,10 @@ var devices_recommended = {
     "Jalapeno Board": "8devices-jalapeno"
   },
 
+  "Acer": {
+    "Vero-W6M": "acer-connect-vero-w6m",
+  },
+
   "Aerohive": {
     "HiveAP 121": "aerohive-hiveap-121",
     "HiveAP 330": "aerohive-hiveap-330",
@@ -693,6 +697,9 @@ var vendormodels = {
 };
 
 var devices_info = {
+  "Acer": {
+    "Vero-W6M": "https://git.openwrt.org/openwrt/openwrt/commit/?id=7e7eb5312d7810084547bb54a4b6867c2da08182",
+  },
   "Aruba": {
     "AP-303": "https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=102c8c55f217606cdbdc9a449667e034676b3e75",
     "AP-303H": "https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=c6e972c8772a628a1a2f2e5590d7c6f4acef9ab0",
