@@ -422,6 +422,10 @@ var devices_recommended = {
     "WBS510": "tp-link-wbs510",
   },
 
+  "Totolink": {
+    "X5000R": "totolink-x5000r",
+  },
+
   "Ubiquiti": {
     "EdgeRouter X": {"ubnt-erx": "", "ubiquiti-edgerouter-x": ""},
     "EdgeRouter X-SFP": {"ubnt-erx-sfp": "", "ubiquiti-edgerouter-x-sfp": ""},
