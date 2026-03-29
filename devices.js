@@ -90,6 +90,7 @@ var devices_recommended = {
   "Cudy": {
     "AP1300 Outdoor": "cudy-ap1300-outdoor",
     "AP3000 Outdoor": "cudy-ap3000-outdoor",
+    "M3000": "cudy-m3000",
     "RE3000": "cudy-re3000",
     "TR1200": "cudy-tr1200",
     "TR3000": "cudy-tr3000",
@@ -97,7 +98,9 @@ var devices_recommended = {
     "WR1300": "cudy-wr1300",
     "WR2100": "cudy-wr2100",
     "WR3000": "cudy-wr3000",
-    "WR3000e": "cudy-wr3000e",
+    "WR3000E": "cudy-wr3000e",
+    "WR3000H": "cudy-wr3000h",
+    "WR3000S": "cudy-wr3000s",
     "X6": "cudy-x6",
   },
 
@@ -742,9 +745,17 @@ var devices_info = {
   "Cudy": {
     "AP1300 Outdoor": "https://forum.darmstadt.freifunk.net/t/installation-cudy-tr3000/1010",
     "AP3000 Outdoor": "https://forum.darmstadt.freifunk.net/t/installation-cudy-tr3000/1010",
-    "WR2100": "https://openwrt.org/toh/cudy/cudy_wr2100_v1#installation_using_web_interface",
+    "M3000": "https://forum.darmstadt.freifunk.net/t/installation-cudy-tr3000/1010",
     "RE3000": "https://forum.darmstadt.freifunk.net/t/installation-cudy-tr3000/1010",
+    "TR1200": "https://forum.darmstadt.freifunk.net/t/installation-cudy-tr3000/1010",
     "TR3000": "https://forum.darmstadt.freifunk.net/t/installation-cudy-tr3000/1010",
+    "WR1300": "https://forum.darmstadt.freifunk.net/t/installation-cudy-tr3000/1010",
+    "WR2100": "https://forum.darmstadt.freifunk.net/t/installation-cudy-tr3000/1010",
+    "WR3000": "https://forum.darmstadt.freifunk.net/t/installation-cudy-tr3000/1010",
+    "WR3000e": "https://forum.darmstadt.freifunk.net/t/installation-cudy-tr3000/1010",
+    "WR3000H": "https://forum.darmstadt.freifunk.net/t/installation-cudy-tr3000/1010",
+    "WR3000S": "https://forum.darmstadt.freifunk.net/t/installation-cudy-tr3000/1010",
+    "X6": "https://forum.darmstadt.freifunk.net/t/installation-cudy-tr3000/1010"
   },
   "Enterasys": {
     "WS-AP3705i": "https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=ebddc5f984a240980303aed68524eb615484eef8",
