@@ -4,6 +4,10 @@ var devices_recommended = {
     "Jalapeno Board": "8devices-jalapeno"
   },
 
+  "Acer": {
+    "Vero-W6M": "acer-connect-vero-w6m",
+  },
+
   "Aerohive": {
     "HiveAP 121": "aerohive-hiveap-121",
     "HiveAP 330": "aerohive-hiveap-330",
@@ -84,7 +88,9 @@ var devices_recommended = {
   },
 
   "Cudy": {
+    "AP1300 Outdoor": "cudy-ap1300-outdoor",
     "AP3000 Outdoor": "cudy-ap3000-outdoor",
+    "M3000": "cudy-m3000",
     "RE3000": "cudy-re3000",
     "TR1200": "cudy-tr1200",
     "TR3000": "cudy-tr3000",
@@ -92,7 +98,9 @@ var devices_recommended = {
     "WR1300": "cudy-wr1300",
     "WR2100": "cudy-wr2100",
     "WR3000": "cudy-wr3000",
-    "WR3000e": "cudy-wr3000e",
+    "WR3000E": "cudy-wr3000e",
+    "WR3000H": "cudy-wr3000h",
+    "WR3000S": "cudy-wr3000s",
     "X6": "cudy-x6",
   },
 
@@ -212,6 +220,7 @@ var devices_recommended = {
 
   "Mercusys": {
     "MR70X": "mercusys-mr70x",
+    "MR90X": "mercusys-mr90x",
   },
 
   "Mikrotik": {
@@ -413,6 +422,10 @@ var devices_recommended = {
     "WBS510": "tp-link-wbs510",
   },
 
+  "Totolink": {
+    "X5000R": "totolink-x5000r",
+  },
+
   "Ubiquiti": {
     "EdgeRouter X": {"ubnt-erx": "", "ubiquiti-edgerouter-x": ""},
     "EdgeRouter X-SFP": {"ubnt-erx-sfp": "", "ubiquiti-edgerouter-x-sfp": ""},
@@ -428,7 +441,8 @@ var devices_recommended = {
                     "ubiquiti-nanostation-m5-xw": "M5 XW", "ubiquiti-nano-m5-xw": "M5 XW"},
     "Rocket": {"ubiquiti-rocket-m": "M", "ubiquiti-rocket-m-xw": "M XW",
                "ubiquiti-rocket-m2": "M2", "ubiquiti-rocket-m2-xw": "M2 XW",
-               "ubiquiti-rocket-m5": "M5", "ubiquiti-rocket-m5-xw": "M5 XW"},
+               "ubiquiti-rocket-m5": "M5", "ubiquiti-rocket-m5-xw": "M5 XW",
+               "ubiquiti-rocket-m-xm": "M/M2/M5 XM"},
     "Rocket Titanium": {"ubiquiti-rocket-m-ti": "--ignore--",
                         "ubiquiti-rocket-m2-ti": "M2",
                         "ubiquiti-rocket-m5-ti": "M5"},
@@ -693,6 +707,9 @@ var vendormodels = {
 };
 
 var devices_info = {
+  "Acer": {
+    "Vero-W6M": "https://git.openwrt.org/openwrt/openwrt/commit/?id=7e7eb5312d7810084547bb54a4b6867c2da08182",
+  },
   "Aruba": {
     "AP-303": "https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=102c8c55f217606cdbdc9a449667e034676b3e75",
     "AP-303H": "https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=c6e972c8772a628a1a2f2e5590d7c6f4acef9ab0",
@@ -732,9 +749,19 @@ var devices_info = {
     "FRITZ!WLAN Repeater 450E": "https://fritz-tools.readthedocs.io/"
   },
   "Cudy": {
-    "WR2100": "https://openwrt.org/toh/cudy/cudy_wr2100_v1#installation_using_web_interface",
+    "AP1300 Outdoor": "https://forum.darmstadt.freifunk.net/t/installation-cudy-tr3000/1010",
+    "AP3000 Outdoor": "https://forum.darmstadt.freifunk.net/t/installation-cudy-tr3000/1010",
+    "M3000": "https://forum.darmstadt.freifunk.net/t/installation-cudy-tr3000/1010",
     "RE3000": "https://forum.darmstadt.freifunk.net/t/installation-cudy-tr3000/1010",
+    "TR1200": "https://forum.darmstadt.freifunk.net/t/installation-cudy-tr3000/1010",
     "TR3000": "https://forum.darmstadt.freifunk.net/t/installation-cudy-tr3000/1010",
+    "WR1300": "https://forum.darmstadt.freifunk.net/t/installation-cudy-tr3000/1010",
+    "WR2100": "https://forum.darmstadt.freifunk.net/t/installation-cudy-tr3000/1010",
+    "WR3000": "https://forum.darmstadt.freifunk.net/t/installation-cudy-tr3000/1010",
+    "WR3000e": "https://forum.darmstadt.freifunk.net/t/installation-cudy-tr3000/1010",
+    "WR3000H": "https://forum.darmstadt.freifunk.net/t/installation-cudy-tr3000/1010",
+    "WR3000S": "https://forum.darmstadt.freifunk.net/t/installation-cudy-tr3000/1010",
+    "X6": "https://forum.darmstadt.freifunk.net/t/installation-cudy-tr3000/1010"
   },
   "Enterasys": {
     "WS-AP3705i": "https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=ebddc5f984a240980303aed68524eb615484eef8",
@@ -804,6 +831,9 @@ var devices_info = {
     "WAX202": "https://openwrt.org/toh/netgear/wax202#oem_easy_installation",
     "WAX206": "https://openwrt.org/toh/netgear/wax206#oem_easy_installation",
     "WAX220": "https://openwrt.org/toh/netgear/wax220#oem_easy_installation",
+  },
+  "Mercusys": {
+    "MR90X": "https://openwrt.org/toh/mercusys/mr90x_v1#installation_stock_bootloader",
   },
   "RAVPower": {
     "RP-WD009": "https://openwrt.org/toh/ravpower/rp-wd009#oem_installation_using_the_tftp_method"
