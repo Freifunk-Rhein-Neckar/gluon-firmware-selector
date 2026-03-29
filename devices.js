@@ -220,6 +220,7 @@ var devices_recommended = {
 
   "Mercusys": {
     "MR70X": "mercusys-mr70x",
+    "MR90X": "mercusys-mr90x",
   },
 
   "Mikrotik": {
@@ -825,6 +826,9 @@ var devices_info = {
     "WAX202": "https://openwrt.org/toh/netgear/wax202#oem_easy_installation",
     "WAX206": "https://openwrt.org/toh/netgear/wax206#oem_easy_installation",
     "WAX220": "https://openwrt.org/toh/netgear/wax220#oem_easy_installation",
+  },
+  "Mercusys": {
+    "MR90X": "https://openwrt.org/toh/mercusys/mr90x_v1#installation_stock_bootloader",
   },
   "RAVPower": {
     "RP-WD009": "https://openwrt.org/toh/ravpower/rp-wd009#oem_installation_using_the_tftp_method"
